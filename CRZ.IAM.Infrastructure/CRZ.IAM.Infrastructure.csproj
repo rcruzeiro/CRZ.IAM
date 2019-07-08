@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\CRZ.IAM.Platform\CRZ.IAM.Platform.csproj" />
+      <ProjectReference Include="..\CRZ.IAM.Database.MySQL\CRZ.IAM.Database.MySQL.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Providers\" />
+      <Folder Include="IoC\" />
+      <Folder Include="Providers\Security\" />
+    </ItemGroup>
+</Project>

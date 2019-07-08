@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CRZ.IAM.Platform\CRZ.IAM.Platform.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Repositories\" />
+        <Folder Include="Configurations\" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
+    </ItemGroup>
+</Project>

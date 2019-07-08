@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="Domain\" />
+        <Folder Include="Domain\Account\" />
+        <Folder Include="Application\" />
+        <Folder Include="Application\Account\" />
+        <Folder Include="Application\Account\Commands\" />
+        <Folder Include="Application\Account\Queries\" />
+        <Folder Include="Application\Account\Commands\Actions\" />
+        <Folder Include="Domain\Account\Specifications\" />
+        <Folder Include="Application\Account\Queries\Filters\" />
+        <Folder Include="Application\Account\Queries\DTOs\" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="CRZ.Framework.Repository" Version="1.0.0" />
+        <PackageReference Include="CRZ.Framework.CQRS" Version="1.1.0" />
+        <PackageReference Include="CRZ.Framework.Web.Security" Version="1.0.0" />
+    </ItemGroup>
+</Project>
